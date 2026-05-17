@@ -37,17 +37,17 @@ Pipeline:
 
 
 ```text
-Chest X-ray Image                 Radiology Findings Text
-      ↓                                      ↓
-ViT Image Encoder                  ClinicalBERT Text Encoder
-      ↓                                      ↓
-Image Patch Embeddings             Text Token Embeddings
-      └─────────────── Cross-Attention Fusion ───────────────┘
+Chest X-ray Image                                 Radiology Findings Text
+      ↓                                                     ↓
+ViT Image Encoder                                ClinicalBERT Text Encoder
+      ↓                                                     ↓
+Image Patch Embeddings                            Text Token Embeddings
+      └─────────────── Cross-Attention Fusion ──────────────┘
                               ↓
                         MLP Classifier
                               ↓
                   5 Abnormality Probabilities
-
+```
 ---
 
 ## Dataset
