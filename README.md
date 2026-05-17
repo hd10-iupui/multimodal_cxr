@@ -70,7 +70,7 @@ Weak labels are automatically generated from radiology report impressions using 
 Clinical token: `pneumothorax`
 
 <p align="center">
-  <img src="outputs/cross_attention/pneumothorax_token_pneumothorax_sample_56.png" width="80%">
+  <img src="outputs/cross_attention/pneumothorax_token_pneumothorax_sample_56.png" width="60%">
 </p>
 
 ---
@@ -78,7 +78,7 @@ Clinical token: `pneumothorax`
 ### Pneumothorax Example 2
 
 <p align="center">
-  <img src="outputs/cross_attention/pneumothorax_token_pneumothorax_sample_1572.png" width="80%">
+  <img src="outputs/cross_attention/pneumothorax_token_pneumothorax_sample_1572.png" width="60%">
 </p>
 
 ---
@@ -88,7 +88,7 @@ Clinical token: `pneumothorax`
 Clinical token: `consolidation`
 
 <p align="center">
-  <img src="outputs/cross_attention/pneumonia_token_consolidation_sample_1964.png" width="80%">
+  <img src="outputs/cross_attention/pneumonia_token_consolidation_sample_1964.png" width="60%">
 </p>
 
 ---
