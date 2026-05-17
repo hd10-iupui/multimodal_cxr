@@ -102,7 +102,6 @@ Clinical token: `consolidation`
 multimodal_cxt/
 │
 ├── analysis/
-├── checkpoints/
 ├── data/
 ├── data_utils/
 ├── models/
