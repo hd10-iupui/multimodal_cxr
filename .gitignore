@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw dataset / large image data
+data/iu_xray/images/
+data/iu_xray/images/**
+data/iu_xray/indiana_reports.csv
+data/iu_xray/indiana_projections.csv
+
+# Keep processed metadata only
+!data/processed/
+!data/processed/iu_xray_labeled_metadata.csv
+
+# no-related to this project
+models/small_tools.py
+others/
+results_copy/
+data/processed/
+
+# Model checkpoints
+checkpoints/*.pt
+
+# Temporary outputs
+outputs/raw_attn_pic/
+outputs/adv_pic/
+outputs/cross_attention_copy
+
+# Keep selected visualization outputs
+!outputs/cross_attention/
+!outputs/cross_attention/*.png
