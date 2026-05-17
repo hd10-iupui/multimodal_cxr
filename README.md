@@ -35,21 +35,18 @@ The model integrates:
 
 Pipeline:
 
-```
-Chest X-ray
-    ↓
-Vision Encoder (ViT)
 
-Radiology Findings
-    ↓
-ClinicalBERT
-
-Cross-Attention Fusion
-    ↓
-MLP Classifier
-    ↓
-5 Disease Probabilities
-```
+```text
+Chest X-ray Image                 Radiology Findings Text
+      ↓                                      ↓
+ViT Image Encoder                  ClinicalBERT Text Encoder
+      ↓                                      ↓
+Image Patch Embeddings             Text Token Embeddings
+      └─────────────── Cross-Attention Fusion ───────────────┘
+                              ↓
+                        MLP Classifier
+                              ↓
+                  5 Abnormality Probabilities
 
 ---
 
