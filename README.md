@@ -65,25 +65,19 @@ Weak labels are automatically generated from radiology report impressions using 
 
 ## Example Cross-Attention Visualizations
 
-### Pneumothorax Attention Map
+<p align="center">
+  <img src="outputs/cross_attention/ptx_1.png" width="30%">
+  <img src="outputs/cross_attention/ptx_2.png" width="30%">
+  <img src="outputs/cross_attention/pna_1.png" width="30%">
+</p>
 
-Clinical token: `pneumothorax`
-
-![Pneumothorax Attention](outputs/cross_attention/pneumothorax_token_pneumothorax_sample_56.png)
-
----
-
-### Pneumothorax Example 2
-
-![Pneumothorax Attention 2](outputs/cross_attention/pneumothorax_token_pneumothorax_sample_1572.png)
-
----
-
-### Pneumonia / Consolidation Attention
-
-Clinical token: `consolidation`
-
-![Pneumonia Attention](outputs/cross_attention/pneumonia_token_consolidation_sample_1964.png)
+<p align="center">
+  <sub>
+    Left: Pneumothorax attention (token: <i>pneumothorax</i>) |
+    Middle: Pneumothorax example 2 |
+    Right: Pneumonia attention (token: <i>consolidation</i>)
+  </sub>
+</p>
 
 ---
 
