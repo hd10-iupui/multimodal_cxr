@@ -56,7 +56,7 @@ Image Patch Embeddings                            Text Token Embeddings
 
 This project uses the Indiana University Chest X-ray Collection:
 
-[[https://openi.nlm.nih.gov/faq](https://openi.nlm.nih.gov/faq)](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university?resource=download)
+(https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university?resource=download)
 
 Weak labels are automatically generated from radiology report impressions using rule-based extraction with negation handling.
 
