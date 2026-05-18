@@ -2,6 +2,8 @@
 
 A lightweight multimodal deep learning framework for chest X-ray classification using both medical images and radiology report text. This project explores clinical vision-language fusion, weak-label learning, class imbalance handling, and cross-attention explainability.
 
+For additional implementation details, experimental results, and cross-modal attention analysis, please refer to `Multimodal_cxr_report.pdf` in this repository.
+
 ---
 
 ## Overview
@@ -165,8 +167,6 @@ Potential future directions include:
 
 ---
 
-## Project Report
-For additional implementation details, experimental results, and cross-modal attention analysis, please refer to `Multimodal_cxr_report.pdf` in this repository.
 
 ## Disclaimer
 
