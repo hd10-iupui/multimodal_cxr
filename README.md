@@ -72,13 +72,6 @@ Clinical token: `pneumothorax`
 
 ---
 
-### Pneumothorax Example 2
-
-<p align="center">
-  <img src="outputs/cross_attention/pneumothorax_token_pneumothorax_sample_1572.png" width="50%">
-</p>
-
----
 
 ### Pneumonia / Consolidation Attention
 
@@ -130,7 +123,7 @@ pip install -r requirements.txt
 
 Trained model checkpoints are hosted separately due to GitHub file size limitations:
 
-https://drive.google.com/file/d/1U3FxaxTmX9XdB0by22N4mVykvwQiar5S/view?usp=sharing
+[https://drive.google.com/file/d/1U3FxaxTmX9XdB0by22N4mVykvwQiar5S/view?usp=sharing](https://drive.google.com/file/d/1k-4ZV9-CHbhc19QE6HYuQYGgsjQLS23U/view?usp=sharing)
 
 ## Example Commands
 
