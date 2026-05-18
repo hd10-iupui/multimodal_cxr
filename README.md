@@ -165,6 +165,9 @@ Potential future directions include:
 
 ---
 
+## Project Report
+For additional implementation details, experimental results, and cross-modal attention analysis, please refer to `Multimodal_cxr_report.pdf` in this repository.
+
 ## Disclaimer
 
 This repository is intended for research and educational purposes only. It is not a medical device and should not be used for clinical decision making.
